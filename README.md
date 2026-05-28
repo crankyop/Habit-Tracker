@@ -1,24 +1,21 @@
-# 📊 HabitPulse
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-HabitPulse is a sleek, native Android habit-tracking application built to help you stay consistent with your daily routines. Prototyped and generated using **Google AI Studio**, the app leverages modern Android development tools to provide a fast, privacy-focused, and fluid user experience.
+# Run and deploy your AI Studio app
 
-## ✨ Features
+This contains everything you need to run your app locally.
 
-* **Quick Logging:** Easily track and log your habits with a single tap from the main dashboard.
-* **Streak Tracking:** View your current and best streaks to stay motivated.
-* **Local & Private:** 100% offline support. Your habits and progress data never leave your device.
-* **Modern Interface:** Built with Material 3 design guidelines, featuring fluid animations and full dark mode support.
+View your app in AI Studio: https://ai.studio/apps/0eb37d36-ba56-4e3f-b4e8-ea0fd55f5cce
 
-## 🛠️ Built With
+## Run Locally
 
-* **Kotlin** - The primary language for modern Android development.
-* **Jetpack Compose** - Android's modern toolkit for building native UI.
-* **Room Database** - Robust, secure local data storage.
-* **MVVM Architecture** - For a clean, modular, and maintainable codebase.
+**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
 
-## 🚀 How to Run
 
-1. Go to the **Releases** section on the right side of this repository page.
-2. Download the latest `app-release.apk` file.
-3. Open the downloaded file on your Android device to install it. 
-*(Note: You may need to allow installation from "Unknown Sources" or your browser/file manager if prompted).*
+1. Open Android Studio
+2. Select **Open** and choose the directory containing this project
+3. Allow Android Studio to fix any incompatibilities as it imports the project.
+4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
+5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
+6. Run the app on an emulator or physical device
