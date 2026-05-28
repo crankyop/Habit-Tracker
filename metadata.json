@@ -1,0 +1,6 @@
+{
+  "name": "Habit Pulse",
+  "description": "A beautiful, interactive single-screen habit tracker with progress insights and custom visual style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

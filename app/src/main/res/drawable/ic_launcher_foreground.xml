@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Soft circular backdrop ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6750A4"
+        android:strokeWidth="3.5"
+        android:strokeAlpha="0.3"
+        android:pathData="M 54,22 A 32,32 0 1,1 53.99,22 Z" />
+    <!-- Styled Flame shape representing streak consistency -->
+    <path
+        android:fillColor="#FF9F29"
+        android:pathData="M54,28 C54,28 65,39 65,49 C65,55 60,60 54,60 C48,60 43,55 43,49 C43,41 54,28 54,28 Z" />
+    <!-- Super crisp bold check mark overlapping the flame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#21005D"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,49 L51,56 L64,41" />
+</vector>
